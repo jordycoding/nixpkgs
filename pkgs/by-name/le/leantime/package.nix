@@ -56,5 +56,6 @@ php.buildComposerProject2 (finalAttrs: {
     description = "An open source project management system";
     license = lib.licenses.agpl3Only;
     homepage = "https://leantime.io";
+    maintainers = with lib.maintainers; [ jordycoding ];
   };
 })
